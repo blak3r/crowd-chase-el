@@ -41,7 +41,7 @@ Well, I made quite a few mistakes on the version 1 board which i'll outline here
 out before my deadline.  The board works it just required assembling things slightly different and in soldering a resistor
 here and there to another part because there wasn't a pad.
 
-#1 - I should have used optically isolated triacs!  You have to use a optically isolated triacs when you're using battery powered circuits.  Basically, you should just always
+1. I should have used optically isolated triacs!  You have to use a optically isolated triacs when you're using battery powered circuits.  Basically, you should just always
 use optotriac's unless you are certain you don't need them.  If you don't, then you don't have a common ground reference between
 the AC output of the inverter and the battery powered controller pcb.  This was a pretty embarrassing mistake.  I was pretty
 confused how it was going to work in the first place and shouldn't have just "trusted" that the SparkFun design would work in
@@ -53,23 +53,23 @@ as I added pads for a second TO-92 transistor along with .1" header to act as a 
 I switched the battery voltage for the inverter using a load switch.  I think this approach is actually probably better anyway as with some invertors
 it's bad to keep them running without any load (ie EL Wire) connected to them.
 
-#2 - The schematic has a PIC18F part on it but the target is actually a PIC16F chip.  I used an 18 pin microchip library that was in the sparkfun library but the pins
+2. The schematic has a PIC18F part on it but the target is actually a PIC16F chip.  I used an 18 pin microchip library that was in the sparkfun library but the pins
 don't match 100%... so the IO pins used in the source code don't match the IO pin numbers on the schematic.
 
-#3 - I forgot to put pull ups on one of the switches and it was connected to an PORTA io pin which can't have weak pullups enabled :(.
+3. I forgot to put pull ups on one of the switches and it was connected to an PORTA io pin which can't have weak pullups enabled :(.
 
-#4 - The voltage regulator pins didn't match the one I used in the library.  As a result you have to rotate the part slightly
+4. The voltage regulator pins didn't match the one I used in the library.  As a result you have to rotate the part slightly
  when assembling.
 
-#5 - My 1.8V regulated output is NOT enough for the LEDs i picked.  The LEDs don't blink very brightly which makes
+5. My 1.8V regulated output is NOT enough for the LEDs i picked.  The LEDs don't blink very brightly which makes
 it really annoying to work with outdoors when the sun is up.
 
-#6 - Some of the boards are a bit unreliable.  I found the PIC going into failsafe oscillator mode from time to time.  I'm not sure
+6. Some of the boards are a bit unreliable.  I found the PIC going into failsafe oscillator mode from time to time.  I'm not sure
 exactly what the cause of this is... Perhaps the crystals are finicky to loading... perhaps it's the 1.8V operating voltage...
 perhaps it's the fact that my boards didn't have solder mask on them and I never completely potted the boards as I ran out of
 time and things shorted out.  I'd definitely recommend getting solder mask!
 
-#7 - My ICSP pads for the Tag Connect didn't seem to work.  I suspect this was due to the limited number of drill sizes
+7. My ICSP pads for the Tag Connect didn't seem to work.  I suspect this was due to the limited number of drill sizes
 that PCBExpress offers on their standard service.  The holes for the line up pins were WAY to large.  As a result, I ended up
 
 
@@ -104,7 +104,6 @@ A simpler approach would be a simple RF transmitter / receiver pairs.  In this t
 pulse signals to the slave boards to keep them in sync.  You can get these for about $5 but what I didn't like about that was then you
 always had to have a "master" board in range of the "slave" board and they'd drain the coin cell batteries pretty fast.  The zigbee stacks have battery
 friendly "time slots" in which all communications occur so the RF controllers could be off most of the time.
-
 
 
 ### Contact ####
