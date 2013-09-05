@@ -1,0 +1,38 @@
+This is my digikey shopping cart.  Enough to build 10 of them.  Has a couple extra capacitors on it..
+Total was $86 --> $8.60 bom cost.
+
+NOTE: this I ended up changing a few of the parts out... for example, I incorrectly chose the 18pF for the loading caps it should be 32pF.
+Didn't end up using the TRIAC... etc. So be aware of that when ordering.
+
+All prices are in US dollars.
+Index	Quantity	Part Number	Description	Customer Reference	Available Quantity	Backorder Quantity	Unit Price	Extended Price
+1	11	497-12733-1-ND	TRIAC SENS GATE 600V 1A SOT223		11
+Immediate	0	0.54500	$6.00
+2	40	P189-ND	BATTERY LITHIUM COIN 3V 20MM		40
+Immediate	0	0.24800	$9.92
+3	20	679-2424-ND	SWITCH TACTILE SPST-NO 0.05A 12V		20
+Immediate	0	0.34700	$6.94
+4	10	MCP1700-1802E/TO-ND	IC REG LDO 1.8V 0.2A TO92-3		10
+Immediate	0	0.37000	$3.70
+5	20	445-2851-ND	CAP CER 1UF 10V 10% RADIAL		20
+Immediate	0	0.26700	$5.34
+6	11	887-1002-ND	CRYSTAL 4MHZ 18PF THRU		11
+Immediate	0	0.32500	$3.58
+7	10	BAT-HLD-001-ND	HOLDER BATTERY 20MM COIN		10
+Immediate	0	0.27000	$2.70
+8	30	754-1592-ND	LED YELLOW DIFF 3MM 588NM 2MA		30
+Immediate	0	0.09320	$2.80
+9	10	PIC16F1826-I/P-ND	IC MCU 8BIT 3.5KB FLASH 18DIP		10
+Immediate	0	1.43000	$14.30
+10	10	CF18JT4K70CT-ND	RES 4.7K OHM 1/8W 5% CF AXIAL		10
+Immediate	0	0.06500	$0.65
+11	40	CF18JT100RCT-ND	RES 100 OHM 1/8W 5% CF AXIAL		40
+Immediate	0	0.06500	$2.60
+12	10	CF18JT470RCT-ND	RES 470 OHM 1/8W 5% CF AXIAL		10
+Immediate	0	0.06500	$0.65
+13	13	BC1148CT-ND	CAP CER 0.1UF 25V RADIAL		13
+Immediate	0	0.29400	$3.82
+14	20	399-8914-ND	CAP CER 16PF 50V 5% RADIAL		20
+Immediate	0	0.47800	$9.56
+15	42	277-1667-ND	TERM BLOCK PCB 2POS 5.0MM GREEN		42
+Immediate	0	0.32200	$13.52
